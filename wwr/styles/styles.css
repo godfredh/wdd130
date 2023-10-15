@@ -1,12 +1,20 @@
+/* Add @import for the chosen fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&family=Lobster&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px; /* Added padding */
 }
 
 nav a {
     text-align: center;
     color: #396E94;
     text-decoration: none;
+    padding: 35px; /* Added padding */
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -27,7 +35,28 @@ main section {
 
 body {
     background-color: white;
+    font-family: 'Roboto', 'Montserrat', 'Arial', sans-serif; /* Backup fonts */
+    font-size: 22px; /* Adjusted default font size */
+    margin: 0; /* Reset margin to zero */
+    padding: 0; /* Reset padding to zero */
 }
+
+h2 {
+    margin: 0; /* Reset margin to zero */
+}
+
+
+h1, h2, h3, h4, h5, h6, .home-title, .msg h2 {
+    font-family: 'Montserrat', 'Arial', sans-serif; /* Use the headline font with backup fonts */
+    color: var(--headline-color-on-white);
+}
+
+
+nav a {
+    font-family:  'Lobster', 'Arial', sans-serif; /* Use a different font for nav links */
+}
+
+
 
 header {
     background-color: rgb(250, 187, 0);
@@ -42,7 +71,58 @@ nav a:hover {
     background-color: #CF3628 ;
     color: #0805ac;
     text-decoration: none;
+    font-size: 18px; /* Adjusted font size */
+    padding: 15px 30px; /* Added padding */
+    margin-top: 50px; /* Added margin */
+    border-radius: 5px; /* Added border-radius */
 }
+
+.card-img {
+    border: 10px solid #CF3628; /* Used a color from the site plan instead of black */
+}
+
+main section img {
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; /* Added margin */
+}
+
+footer {
+    background-color: #d62323;
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px; /* Added margin */
+}
+
+
+.icon {
+    padding-top: 10px; /* Added padding */
+}
+
+.msg {
+    background-color: #CF3628;
+    line-height: 1.5em;
+    padding: 35px; /* Added padding */
+}
+
+.msg p {
+    color: rgb(250, 187, 0);
+    font-size: 0.8em;
+    padding-bottom: 15px; /* Added padding */
+}
+
+footer {
+    background-color: #d62323;
+    color: #ffffff;
+    padding: 25px 50px; /* Added padding */
+}
+
+footer .social img {
+    padding-top: 15px; /* Added padding */
+}
+
 
 .book, .join:hover {
     background-color: #0805ac;
@@ -84,23 +164,34 @@ h4 {
 
 .home-title {
     color: #0805ac;
+    font-family: 'Montserrat', 'Arial', sans-serif; /* Use the headline font with backup fonts */
+    font-size: 2em; /* Make it twice as big as the default font size */
+    margin-top: 10px; /* Added margin */
 }
 
 .msg h2 {
     color: #CF3628;
+    font-family: 'Montserrat', 'Arial', sans-serif; /* Use the headline font with backup fonts */
 }
 
 .msg p {
     color: rgb(250, 187, 0);
+    font-size: 0.8em; /* Adjusted font size */
 }
 
-.msgh2 {
+.msg h2 {
     color: #0805ac;
+    font-family: 'Montserrat', 'Arial', sans-serif; /* Use the headline font with backup fonts */
 }
 
 .msg p {
     color: #0805ac;
 }
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
 
 .logo {
     width: 80px;
@@ -109,3 +200,4 @@ h4 {
 #hero-img {
     width: 100px;
 }
+
