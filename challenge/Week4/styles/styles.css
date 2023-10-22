@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color: pink;
+    color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; /* Define the custom font */
+}
+
+img {
+    background-color: pink;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif; /* Apply the custom font */
+    font-size: 36px;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+    color: black;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    padding: 1em;
+    font-size: 36px;
+    text-align: center;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 36px;
+    text-align: center;
+}
