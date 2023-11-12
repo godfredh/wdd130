@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+  }
+
+  nav {
+    background-color: steelblue;
+    padding: 10px;
+  }
+
+  /* font color and the margin gives some space between the a elements. */
+  a {
+    color: white;
+    margin: 40px;
+  }
+
+/*styles to h1 img p and footer*/
+  h1 {
+    color: steelblue;
+  }
+  img {
+    width: 800px;
+    border: 4px solid steelblue;
+  }
+  p {
+    padding: 10px;
+  }
+  footer {
+    background-color: steelblue;
+    color: white;
+  }

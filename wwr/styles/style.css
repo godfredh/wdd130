@@ -280,3 +280,39 @@ footer .social img {
     }
 }
 
+/* Add this to your existing CSS or create a new stylesheet */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Move the list items to the left */
+section ul {
+    text-align: left;
+}
+
+/* Optional: Center the text inside the section */
+section {
+    text-align: center;
+}
+
+section li::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
