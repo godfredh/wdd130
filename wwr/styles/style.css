@@ -44,6 +44,11 @@ h2 {
     margin: 0;
 }
 
+
+
+
+
+
 header {
     background-color: rgb(250, 187, 0);
     display: grid;
@@ -313,6 +318,4 @@ section li::before {
     width: 1em;
     margin-left: -1em;
 }
-
-
 
