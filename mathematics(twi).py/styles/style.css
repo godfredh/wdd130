@@ -108,7 +108,7 @@ h4 {
 }
 
 .card-img, .african-woman {
-    width: 100%;
+    height: 100%;
 }
 
 #background {
@@ -137,6 +137,7 @@ h4 {
     grid-column: 6/10;   
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #000000;
+    font-size: 100%;
 
 }
 
@@ -157,8 +158,9 @@ h4 {
 
 
 .empowering-card {
-    grid-column: 5/7;
+    grid-column: 2/10;
     grid-row: 2/3;
+    margin: 20px auto;
 }
 
 
@@ -238,6 +240,62 @@ main section {
 .box-text {
     flex-grow: 1;
 }
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #09440c; /* Match with original color */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f4f6f9; /* Match with original color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #000000;
+    color: #f01708; /* Match with original color */
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #09440c; /* Match with original color */
+    color: #f7f7f9; /* Match with original color */
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+  
 
 
 
