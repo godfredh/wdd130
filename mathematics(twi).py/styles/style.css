@@ -213,7 +213,8 @@ footer .social img {
 }
 
 #hero-img {
-    width: 100%;   
+    width: 100%;
+       
 }
 
 /* styling for paragraph and box*/
@@ -235,6 +236,7 @@ main section {
     max-width: 100%;
     height: auto;
     margin-right: 20px; /* Adjusted margin */
+    
 }
 
 .box-text {
@@ -292,7 +294,16 @@ main section {
     color: white;
   }
 
+/* Blurs the specific image with ID "specific-hero-img" */
+#hero-img2 {
+    width: 100%;
+    /* The image used */
+    background-image: url("counting.jpg");
 
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);   
+}
 
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
   @media screen and (max-width: 600px) {
