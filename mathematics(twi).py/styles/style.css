@@ -316,6 +316,11 @@ p {
     font-size: 14px;  /* You can adjust this to whatever size you like */
 }
 
+
+.box-text p {
+    margin-right: 10px;
+ }
+
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
   @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
